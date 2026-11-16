@@ -84,16 +84,22 @@ plt.show()
 ```
 ## OUTPUT:
 ### ORIGINAL DATA:
-<img width="588" height="102" alt="image" src="https://github.com/user-attachments/assets/36595b53-e716-47df-9368-dfeb55183457" />
+
+<img width="603" height="107" alt="image" src="https://github.com/user-attachments/assets/3eeeb3be-e7f3-45dc-b934-f914a52cc642" />
+
 
 ### SEASONAL ADJUSTMENT:
-<img width="556" height="82" alt="image" src="https://github.com/user-attachments/assets/90e262d8-aa75-45bd-bac8-8989cd9cae50" />
+
+<img width="606" height="101" alt="image" src="https://github.com/user-attachments/assets/56020444-b1d4-439c-87e7-4cd94b6106c0" />
 
 ### After Regular and Seasonal Differencing:
-<img width="563" height="125" alt="image" src="https://github.com/user-attachments/assets/2da2602c-db37-4e0c-9310-0a4b80e72aef" />
+
+<img width="602" height="107" alt="image" src="https://github.com/user-attachments/assets/60bed987-12e9-4390-a6b2-06edc784d2f1" />
 
 ### Log Transformation vs Original Mileage:
-<img width="557" height="80" alt="image" src="https://github.com/user-attachments/assets/2895287f-5dec-4359-ba83-ca8982e083ba" />
+
+<img width="597" height="90" alt="image" src="https://github.com/user-attachments/assets/53427313-fa39-43ff-b1db-c0dd4bcc6636" />
+
 
 ## RESULT:
 Thus, the Python program for converting non-stationary time series data into stationary data using Regular Differencing, Seasonal Adjustment, and Log Transformation on the International Airline Passenger dataset was successfully developed and executed.data.
