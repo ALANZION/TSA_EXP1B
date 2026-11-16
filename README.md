@@ -83,13 +83,13 @@ plt.tight_layout()
 plt.show()
 ```
 ## OUTPUT:
-ORIGINAL DATA:
+# ORIGINAL DATA:
 <img width="588" height="102" alt="image" src="https://github.com/user-attachments/assets/36595b53-e716-47df-9368-dfeb55183457" />
-SEASONAL ADJUSTMENT:
+# SEASONAL ADJUSTMENT:
 <img width="556" height="82" alt="image" src="https://github.com/user-attachments/assets/90e262d8-aa75-45bd-bac8-8989cd9cae50" />
-After Regular and Seasonal Differencing:
+# After Regular and Seasonal Differencing:
 <img width="563" height="125" alt="image" src="https://github.com/user-attachments/assets/2da2602c-db37-4e0c-9310-0a4b80e72aef" />
-Log Transformation vs Original Mileage:
+# Log Transformation vs Original Mileage:
 <img width="557" height="80" alt="image" src="https://github.com/user-attachments/assets/2895287f-5dec-4359-ba83-ca8982e083ba" />
 
 ## RESULT:
