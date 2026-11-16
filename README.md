@@ -1,3 +1,27 @@
+# Ex.No: 1B                     CONVERSION OF NON STATIONARY TO STATIONARY DATA
+# Date: 31-10-2026
+
+
+### AIM:
+To develop a Python program to convert non-stationary time series data into stationary data using Regular Differencing, Seasonal Adjustment, and Log Transformation on the International Airline Passenger dataset.
+
+# Dataset Name : AirPassengers
+
+### ALGORITHM:
+1. Import the required libraries such as Pandas, NumPy, Matplotlib, and Statsmodels.
+2. Read the AirPassengers dataset using Pandas.
+3. Convert the Month column into datetime format and set it as the index.
+4. Perform Regular Differencing to remove the trend from the data.
+5. Perform Seasonal Adjustment to remove seasonal variations.
+6. Apply Log Transformation to stabilize the variance.
+7. Perform Log Transformation with Regular Differencing.
+8. Perform Log Transformation with Regular and Seasonal Differencing.
+9. Plot the original data and all transformed data for comparison.
+10. Display the graphs and observe the changes.
+
+### PROGRAM:
+
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -57,7 +81,7 @@ plt.grid(True)
 plt.legend()
 plt.tight_layout()
 plt.show()
-
+```
 ## OUTPUT:
 ORIGINAL DATA:
 <img width="588" height="102" alt="image" src="https://github.com/user-attachments/assets/36595b53-e716-47df-9368-dfeb55183457" />
